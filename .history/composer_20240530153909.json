@@ -1,5 +1,5 @@
 {
-    "name": "hesabe/integer-hashids",
+    "name": "bcelebi/integer-hashids",
     "type": "package",
     "description": "Laravel Integers Hashids Generator. Encode and decode ids to Integers. Also generate prefixed hashids",
     "keywords": ["laravel","laravel 10","Laravel Integers Hashids", "Laravel 10 hashids", "Integers Hashids", "Prefixed hashids", "Prefixed integer hashids"],
@@ -12,13 +12,13 @@
     ],
     "autoload":{
       "psr-4": {
-        "Bcelebi\\Hashids\\": "src/"
+        "bcelebi\\Hashids\\": "src/"
       }
     },
     "extra": {
       "laravel": {
         "providers": [
-          "Bcelebi\\Hashids\\HashidsServiceProvider"
+          "bcelebi\\Hashids\\HashidsServiceProvider"
         ],
         "aliases": {
         }

@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Bcelebi\Hashids\Support\Hashids;
+namespace Hesabe\Hashids\Support\Hashids;
 
 /**
  * This is the math class.

@@ -12,13 +12,13 @@
     ],
     "autoload":{
       "psr-4": {
-        "Bcelebi\\Hashids\\": "src/"
+        "Hesabe\\Hashids\\": "src/"
       }
     },
     "extra": {
       "laravel": {
         "providers": [
-          "Bcelebi\\Hashids\\HashidsServiceProvider"
+          "Hesabe\\Hashids\\HashidsServiceProvider"
         ],
         "aliases": {
         }

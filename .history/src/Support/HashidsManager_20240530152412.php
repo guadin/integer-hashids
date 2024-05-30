@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Bcelebi\Hashids\Support;
+namespace Hesabe\Hashids\Support;
 
-use Bcelebi\Hashids\Support\Manager\AbstractManager;
+use Hesabe\Hashids\Support\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
 
 /**
@@ -25,7 +25,7 @@ class HashidsManager extends AbstractManager
     /**
      * The factory instance.
      *
-     * @var \Bcelebi\Hashids\Support\Hashids\HashidsFactory
+     * @var \Hesabe\Hashids\Support\Hashids\HashidsFactory
      */
     private $factory;
 
@@ -33,7 +33,7 @@ class HashidsManager extends AbstractManager
      * Create a new Hashids manager instance.
      *
      * @param \Illuminate\Contracts\Config\Repository $config
-     * @param \Bcelebi\Hashids\Support\Hashids\HashidsFactory $factory
+     * @param \Hesabe\Hashids\Support\Hashids\HashidsFactory $factory
      *
      * @return void
      */
@@ -69,7 +69,7 @@ class HashidsManager extends AbstractManager
     /**
      * Get the factory instance.
      *
-     * @return \Bcelebi\Hashids\Support\Hashids\HashidsFactory
+     * @return \Hesabe\Hashids\Support\Hashids\HashidsFactory
      */
     public function getFactory()
     {

@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Bcelebi\Hashids\Support;
+namespace Hesabe\Hashids\Support;
 
-use Bcelebi\Hashids\Support\Hashids\Hashids;
+use Hesabe\Hashids\Support\Hashids\Hashids;
 use Illuminate\Support\Arr;
 
 /**

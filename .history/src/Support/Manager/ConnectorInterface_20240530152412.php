@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Bcelebi\Hashids\Support\Manager;
+namespace Hesabe\Hashids\Support\Manager;
 
 /**
  * This is the connector interface.
