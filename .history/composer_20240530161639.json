@@ -1,13 +1,13 @@
 {
-    "name": "bcelebi/integer-hashids",
+    "name": "amamarul-laravel10/integer-hashids",
     "type": "package",
     "description": "Laravel Integers Hashids Generator. Encode and decode ids to Integers. Also generate prefixed hashids",
-    "keywords": ["laravel","laravel 10","Laravel Integers Hashids", "Laravel 10 hashids", "Integers Hashids", "Prefixed hashids", "Prefixed integer hashids"],
+    "keywords": ["laravel","laravel 5.4","Laravel Integers Hashids", "Laravel 5.4 hashids", "Integers Hashids", "Prefixed hashids", "Prefixed integer hashids"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Bahadir Celebi",
-            "email": "guadinis@gmail.com"
+            "name": "Maru Amallo-amamarul",
+            "email": "ama_marul@hotmail.com"
         }
     ],
     "autoload":{

@@ -11,11 +11,13 @@ This package works like [Laravel Hashids][218ac709] but you can make integers ha
 **Also you can use encode() and decode() helpers.**
 *You can also make alphanumeric Hashids*
 
+  [218ac709]: https://github.com/vinkla/laravel-hashids "Laravel Hashids"
+
 ## Installation
 
 ### Composer require
 ``` bash
-$ composer require bcelebi/integer-hashids
+$ composer require amamarul/integer-hashids
 ```
 ### Add Provider into config/app.php
 ``` php

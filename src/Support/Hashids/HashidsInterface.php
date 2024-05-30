@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Bcelebi\Hashids\Support\Hashids;
+namespace Amamarul\Hashids\Support\Hashids;
 
 /**
  * This is the hashids interface.

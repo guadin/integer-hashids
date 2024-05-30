@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Bcelebi\Hashids\Support\Facades;
+namespace Amamarul\Hashids\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Bcelebi\Hashids\Support\HashidsManager;
+use Amamarul\Hashids\Support\HashidsManager;
 
 /**
  * This is the Hashids facade class.

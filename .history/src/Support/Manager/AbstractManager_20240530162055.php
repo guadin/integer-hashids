@@ -163,7 +163,7 @@ abstract class AbstractManager implements ManagerInterface
         if (!is_array($config = Arr::get($connections, $name)) && !$config) {
             throw new InvalidArgumentException("Connection [$name] not configured.");
         }
-        
+
         $config['name'] = $name;
 
         return $config;

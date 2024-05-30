@@ -2,9 +2,9 @@
 
 namespace Amamarul\Hashids;
 
-use Bcelebi\Hashids\Support\Hashids\Hashids;
-use Bcelebi\Hashids\Support\HashidsManager;
-use Bcelebi\Hashids\Support\HashidsFactory;
+use Amamarul\Hashids\Support\Hashids\Hashids;
+use Amamarul\Hashids\Support\HashidsManager;
+use Amamarul\Hashids\Support\HashidsFactory;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
@@ -59,7 +59,7 @@ class HashidsServiceProvider extends ServiceProvider
     public function register()
     {
         $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-        $loader->alias('Hashids', \Bcelebi\Hashids\Support\Facades\Hashids::class);
+        $loader->alias('Hashids', \Amamarul\Hashids\Support\Facades\Hashids::class);
     }
 
     /**
