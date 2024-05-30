@@ -1,0 +1,32 @@
+{
+    "name": "hesabe/integer-hashids",
+    "type": "package",
+    "description": "Laravel Integers Hashids Generator. Encode and decode ids to Integers. Also generate prefixed hashids",
+    "keywords": ["laravel","laravel 10","Laravel Integers Hashids", "Laravel 10 hashids", "Integers Hashids", "Prefixed hashids", "Prefixed integer hashids"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bahadir CELEBI",
+            "email": "guadinis@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4": {
+        "Hesabe\\Hashids\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Hesabe\\Hashids\\HashidsServiceProvider"
+        ],
+        "aliases": {
+        }
+      }
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "config": {
+        "preferred-install": "dist"
+    }
+}
